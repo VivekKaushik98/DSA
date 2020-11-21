@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.PrintWriter;
+//import java.io.PrintWriter;
 import java.util.InputMismatchException;
  
 class FastScanner {
@@ -109,7 +109,7 @@ class FastScanner {
   }  
  
 }
-public class Quicksort {
+public class QuicksortScanner {
 
     public static int partition(int [] arr,int strt,int last){
 
@@ -188,7 +188,7 @@ public class Quicksort {
 
         }
             
-
+sc.close();
     }
     
 }
