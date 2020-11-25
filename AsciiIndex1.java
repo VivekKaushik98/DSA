@@ -22,11 +22,13 @@ class AsciiIndex1{
         else {
             for(int i=0;i<str.length();i++)
             {
-                if(( (int)ch[i]>=65 &&(int)ch[i]<=90 || (int)ch[i]>=97 &&(int)ch[i]<=127)){
+                if(( (int)ch[i]>=65 &&(int)ch[i]<=90 || (int)ch[i]>=97 &&(int)ch[i]<=127)||(int)ch[i]==' '){
             if((i+1)%3==0 && i!=0 )
                 {
                    //System.out.println(i+3);
                     s=s+(int)ch[i];
+                    if(ch[i]==' ')
+                    s=s-32;
                 }
                 }
                 else{
